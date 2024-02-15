@@ -1,0 +1,948 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    display: flex;
+    padding: 24px 42px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.Navbar h2 {
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.Navbar .End {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.Navbar.End h2 {
+    color: var(--Black, #2D2D2D);
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 158.824% */
+}
+
+
+.Navbar2 {
+    display: none;
+}
+
+/* 2 */
+.Hero-section {
+    display: flex;
+    padding: 42px 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 42px 68px;
+    flex-wrap: wrap;
+}
+
+.header-content {
+    display: flex;
+    min-width: 320px;
+    max-width: 620px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 0 0;
+}
+
+
+.Hero-section .header-content .title-subtitle {
+    width: Fill 620px;
+    height: 202px;
+    gap: 24px;
+
+}
+
+#Branding {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 30px;
+}
+
+#Visual {
+    height: 70px;
+    font-family: Epilogue;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#Figma {
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 54px;
+
+}
+
+#button {
+    width: 211px;
+    height: 78px;
+    padding: 24px, 64px, 24px, 64px;
+    gap: 10px;
+    background-color: black;
+}
+
+
+#button span {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 83px;
+    height: 30px;
+    color: white;
+}
+
+
+.logobar {
+    display: flex;
+    padding: 42px 68px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 68px;
+    flex-wrap: wrap;
+}
+
+/* skill section */
+.skill-section {
+    display: flex;
+    padding: 42px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+
+}
+
+.Cards-section {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: stretch;
+}
+
+.skill-cards {
+    display: flex;
+    min-width: 320px;
+    padding: 64px 42px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    flex: 1 0 0;
+    background: #FFF;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+
+.details .p1 {
+    height: 42px;
+    align-self: stretch;
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    /* 155.556% */
+}
+
+
+.details .p2 {
+    align-self: stretch;
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 158.824% */
+}
+
+/* gallery */
+.Gallery-section {
+    background: var(--White, #FFF);
+    display: flex;
+    padding: 42px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+
+}
+
+.Gallery-section #var {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.Cards-sections {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.gallery-card {
+    display: flex;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.gallery-card image {
+    height: 330px;
+    align-self: stretch;
+}
+
+.gallery-card .card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.gallery-card .card-details .CD_1 {
+    align-self: stretch;
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+
+}
+
+.gallery-card .card-details .CD_2 {
+    align-self: stretch;
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 158.824% */
+}
+
+/* Testimonial */
+.Testimonial-section {
+    display: flex;
+    /* width: 1280px; */
+    padding: 42px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    background: var(--White, #FFF);
+
+}
+
+.Testimonial-section h2 {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+
+    /* H2 */
+    font-family: Epilogue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 131.25% */
+
+
+}
+
+.Cardsss-section {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.Testimonial-card {
+    display: flex;
+    min-width: 320px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    background: #F3F3F3;
+}
+
+.Testimonial-card h2#int {
+    color: var(--Black, #2D2D2D);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* line-height: 150% ; */
+
+}
+
+
+.client-img {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+}
+
+.client-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    /* Styles for the client image */
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    /* Styles for the client information section */
+}
+
+.stars {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    /* Styles for the star rating section */
+}
+
+.stars img {
+    width: 20px;
+    height: 20px;
+    /* Styles for the star images */
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    /* Styles for the client name section */
+}
+
+.Testimonial-card .Name #H2O {
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.Testimonial-card .Name #H2OO {
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.824%;
+    /*  */
+}
+
+.Contact-section {
+    display: flex;
+    padding: 42px 24px 86px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    background: #FFF;
+}
+
+
+.Contact-section h2 {
+    width: 626px;
+    color: var(--Black, #2D2D2D);
+
+    /* H2 */
+    font-family: Epilogue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    /*  */
+
+}
+
+
+.Contact-section-content {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 42px 142px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.Contact-info {
+    display: flex;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+    flex: 1 0 0;
+}
+
+.Contact-info .titledes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+    align-self: stretch;
+}
+
+
+
+.Contact-info .titledes h2 {
+    color: #2D2D2D;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.824%;
+    /* 158.824% */
+}
+
+
+.Contact-info .social-links {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.Contact-info .social-links image {
+    width: 36px;
+    height: 36px;
+}
+
+.Contact-info .Contact-form {
+    display: flex;
+    min-width: 320px;
+    max-width: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+
+.Contact-form {
+    display: flex;
+    min-width: 320px;
+    max-width: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+
+
+.inputss {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.Contact-form .inputss input {
+    display: flex;
+    min-width: 467px;
+    max-width: 520px;
+    padding: 16px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: #F3F3F3;
+}
+
+.Contact-form .inputss input[type="text"] {
+    border-radius: 20px;
+    flex: 1 0 0;
+    color: #2D2D2D;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.824%;
+    /*  */
+}
+
+.Contact-form button {
+    margin-top: 16px;
+    display: flex;
+    padding: 24px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: burlywood;
+    border-radius: 20px;
+}
+
+.Contact-form button a {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 150% */
+}
+
+#Navigation {
+    display: none;
+}
+
+@media only screen and (max-width:430px) {
+
+    .Navbar {
+        display: none;
+    }
+
+    #Navigation {
+
+        display: flex;
+        justify-content: flex-end;
+        /* Align items to the right */
+        align-items: center;
+        /* Center vertically */
+    }
+
+    #menu {
+        font-size: calc(100% - 5px);
+        width: 35px;
+        height: 30px;
+        margin: 30px 20px 20px 0;
+        /* Adjust margin to space from top and right */
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .bar {
+        height: 5px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    #bar1 {
+        transform: translateY(-4px);
+    }
+
+    #bar3 {
+        transform: translateY(-4px);
+    }
+
+    .nav li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        border: 1px solid black;
+    }
+
+    .nav li {
+        list-style: none;
+        padding: 16px 0;
+    }
+
+    .nav {
+        padding: 0;
+        margin: 0 20px;
+        transition: 1s ease;
+        display: none;
+    }
+
+    #menu.icon .bar {
+        background-color: red;
+    }
+
+    #menu.icon #bar1 {
+        transform: translateY(4px) rotate(-45deg);
+    }
+
+    #menu.icon #bar3 {
+        transform: translateY(-6px) rotate(-134deg);
+    }
+
+    #menu.icon #bar2 {
+        opacity: 0;
+    }
+
+    #nav.change {
+        background-color: rgb(63, 63, 255);
+        opacity: 80%;
+        color: whitesmoke;
+        height: 100vh;
+        margin: 0;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        z-index: -100px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*  , h2, .Cardsss-section, .Testimonial-card, h2#int, .client-img, .client-img img, .client-info, .stars, .stars img, .Name, .Name #H2O, .Name #H2OO, , h2, .Contact-section-content, .Contact-info, .titledes, .titledes h2, .social-links, .social-links img, .Contact-form, .inputss, .inputss input, .inputss input[type="text"], button, button a { */
+
+
+
+    .Hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 10px;
+        align-items: baseline;
+        flex-wrap: nowrap;
+        gap: 42px 68px;
+    }
+
+   
+    
+
+
+    /* .Hero-section .header-content .title-subtitle {} */
+
+    #Branding {
+        font-family: Epilogue;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+    #Visual {
+        height: 13px;
+        font-family: Epilogue;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 15px;
+
+    }
+
+    #Figma {
+        font-family: Epilogue;
+    font-size: 10px;
+    line-height: 11px;
+    height: 37px;
+    }
+
+    #button {
+        height: 30px;
+    padding: 24px, 64px, 24px, 64px;
+    gap: 10px;
+    background-color: black;
+    color: black;
+    width: 115px;
+    }
+
+
+    #button span {
+        font-family: Epilogue;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 83px;
+        height: 30px;
+        color: white;
+    }
+
+    .Header-img{
+        float: right;
+    }
+    .Header-img img{
+        margin-left: 15%;
+        float: inline-start;
+        width: 326px;
+        height: 235px;
+
+    }
+
+
+    .logobar{
+        margin-left: 25%;
+    display: inline-grid;
+    padding: 57px 37px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 75px;
+    }
+
+
+.skill-section{
+    display: flex;
+    padding: 42px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+
+}
+.skill-cards {
+    display: flex;
+    /* min-width: 320px; */
+    /* padding: 64px 42px; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 42px;
+    flex: 1 0 0;
+    background: #FFF;
+}
+
+
+.Cards-section {
+    display: inline-grid;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: stretch;
+}
+    .logobar img{
+        width: 150px;
+        height: auto;
+    }
+    .Gallery-section {
+        display: block;
+        background: var(--White, #FFF);
+        padding: 42px 17px;
+    }
+
+    .Gallery-section #var {
+        color: var(--Black, #2D2D2D);
+        text-align: center;
+        font-family: Epilogue;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 42px;
+    }
+
+    .Testimonial-card {
+        display: block;
+        min-width: 110px;
+        padding: 3px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        background: #F3F3F3;
+    }
+
+
+    .Testimonial-section h2 {
+        color: var(--Black, #2D2D2D);
+        text-align: center;
+        font-family: Epilogue;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+    }
+
+
+    .stars {
+        display: flex;
+        align-items: flex-start;
+        gap: 0px;
+
+
+    }
+
+    .Testimonial-card .Name #H2O {
+        color: var(--Black, #2D2D2D);
+        font-family: Epilogue;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .Testimonial-card .Name #H2OO {
+        color: var(--Black, #2D2D2D);
+        font-family: Epilogue;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .Contact-section {
+        display: block;
+    }
+
+    .Contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        background: #FFF;
+    }
+  
+    .Contact-section h2 {
+        color: var(--Black, #2D2D2D);
+        font-family: Epilogue;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        width: auto;
+    }
+    .Contact-section-content {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 42px 142px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+    .Contact-info {
+        display: flex;
+        min-width: 320px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 42px;
+        flex: 1 0 0;
+    }
+
+
+    .Contact-info .titledes {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: flex-start;
+        gap: 42px;
+        align-self: stretch;
+    }
+
+    .Contact-form {
+        display: flex;
+        min-width: auto;
+        max-width: fit-content;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex: 1 0 0;
+    }
+    .inputss {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+    }
+
+    .Contact-form .inputss input[type="text"] {
+        flex: 1 0 0;
+        color: #2D2D2D;
+        font-family: Epilogue;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+    }
+    
+    .Contact-form .inputss input {
+        display: flex;
+        min-width: 332px;
+        /* max-width: 520px; */
+        padding: 16px 24px;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+        background: #F3F3F3;
+    }
+
+    .Contact-form button {
+        display: flex;
+        padding: 24px 64px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background:aqua;
+        width: 50px;
+        height: 50px;
+    }
+
+    .Contact-form button a {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Epilogue;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    
+
+
+
+
+}
