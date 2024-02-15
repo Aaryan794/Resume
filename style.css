@@ -675,7 +675,7 @@ body {
 
     #Branding {
         font-family: Epilogue;
-        font-size: 10px;
+        font-size: 21px;
         font-weight: 600;
         line-height: 35px;
     }
@@ -683,7 +683,7 @@ body {
     #Visual {
         height: 13px;
         font-family: Epilogue;
-        font-size: 32px;
+        font-size: 50px;
         font-weight: 600;
         line-height: 15px;
 
@@ -691,13 +691,13 @@ body {
 
     #Figma {
         font-family: Epilogue;
-    font-size: 10px;
-    line-height: 11px;
-    height: 37px;
+        font-size: 14px;
+        line-height: 19px;
+        height: 38px;
     }
 
     #button {
-        height: 30px;
+        height: 47px;
     padding: 24px, 64px, 24px, 64px;
     gap: 10px;
     background-color: black;
@@ -722,11 +722,10 @@ body {
         float: right;
     }
     .Header-img img{
-        margin-left: 15%;
+        margin-left: -6%;
         float: inline-start;
-        width: 326px;
-        height: 235px;
-
+        width: 420px;
+        height: 318px;
     }
 
 
